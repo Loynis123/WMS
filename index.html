@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WMS — Распределительный склад интернет-ритейлера</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body class="page">
+    <!-- Блок БЭМ: header -->
+    <header class="header">
+      <div class="header__inner">
+        <span class="header__logo">WMS</span>
+        <div class="header__titles">
+          <h1 class="header__title">Распределительный склад</h1>
+          <p class="header__subtitle">Управление складом и интеграция с e-commerce</p>
+        </div>
+      </div>
+    </header>
+
+    <!-- Контейнер, в который UI отрисовывает интерфейс -->
+    <main class="main">
+      <div id="app" class="main__inner"></div>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__text">Учебный проект · TypeScript · БЭМ · SOLID/ООП</p>
+    </footer>
+
+    <!-- Точка входа (ES-модуль, скомпилированный из TypeScript) -->
+    <script type="module" src="./dist/app.js"></script>
+  </body>
+</html>

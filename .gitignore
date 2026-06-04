@@ -1,0 +1,5 @@
+# Зависимости (ставятся через `npm install`)
+node_modules/
+
+# Результат компиляции TypeScript (собирается через `npm run build`)
+dist/

@@ -1,0 +1,15 @@
+{
+  "name": "wms-ecommerce",
+  "version": "1.0.0",
+  "description": "Минимальный сайт WMS распределительного склада интернет-ритейлера (TypeScript, БЭМ, SOLID, ООП)",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "serve": "node serve.js",
+    "start": "tsc && node serve.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}
